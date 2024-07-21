@@ -1,0 +1,111 @@
+header {
+ font-family: Helvetica, Arial,Sans-Serif;
+ font-weight: bold condensed;
+ color: #AC2B37; 
+ font-size: 25px;
+}
+header.secondary{   
+padding-left: 75px;
+}
+audio{
+padding: 9 px;
+ border-radius 22px;
+ border: 1px solid #666;
+ margin: 6px;
+}
+
+button {
+ /*center the button*/
+display: block;
+margin-left: auto;
+margin-right: auto;
+ 
+/* add your code to set top and bottom margins */
+ margin-top: 3px;
+ margin-bottom: 3px;
+/*add an image to your button*/
+-webkit-border-image: url("orangeButton.png") 14 14 14 14 stretch;
+background-size: cover;
+
+/*set width and height for the button*/
+}
+button.back {
+/*These lines override the previous styling of buttons*/
+-webkit-border-image: url("greyButton.png") 0 14 0 14 stretch;
+width:60px;
+height: 30px;
+ 
+/*These lines position the back button inside the header*/
+position:absolute;
+left:16px;
+top:8px;
+}
+video {
+ 	/* add your style definitions here */
+ padding: 9 px;
+ border-radius 22px;
+ border: 1px solid #666;
+ margin: 6px;
+ 	/* transitions applied to the video element */
+ 	-moz-transition: all 1s ease-in-out;
+ 	-webkit-transition: all 1s ease-in-out;
+ 	-o-transition: all 1s ease-in-out;
+ 	-ms-transition: all 1s ease-in-out;
+ 	transition: all 1s ease-in-out;
+}
+body {
+ font-family: Helvetica, Arial,Sans-Serif;
+ font-weight: condensed;
+ color: #E28258;
+ font-size: 25px;
+}
+
+h1 {
+ font-family: Helvetica, Arial,Sans-Serif;
+ font-weight: bold italics;
+ color: #E28258;
+ font-size: 25px;
+}
+#content {
+padding: 3.5 px
+}
+#WPI {
+display: block
+width: 75%
+margin-left: auto;
+margin-right: auto;
+}
+
+#main_nav ul { padding: 0; margin: 0; }
+
+#main_nav li  {
+  list-style-type: none; /* remove bullet points */ 
+}
+
+#main_nav li a {
+   display: block;
+   text-decoration: none; /* remove underline */
+   border-radius: 22px;  /* rounded corners */
+   margin: 6px;
+   padding: 9px;
+   color: #222;
+   font-weight: bold;
+
+   /* nice gradient shade on the buttons */
+   background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1));
+
+   border: 1px solid #666; /* dark outline */
+}
+
+nav li:active {
+  background-color: #ccc;
+  background-image: none;
+  box-shadow: inset 0 3px 3px rgba(0, 0, 0, .2);
+}
+
+footer{
+ font-family: Helvetica, Arial,Sans-Serif;
+ font-weight: bold condensed;
+ color: #AC2B37; 
+ font-size: 25px;
+}
