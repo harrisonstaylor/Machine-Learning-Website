@@ -67,8 +67,9 @@ h1 {
  font-size: 25px;
 }
 #content {
-padding: 3.5px;
+    padding: 3.5px;
     text-align: center;
+    align-items: center;
 }
 #WPI {
 display: block;
@@ -171,8 +172,10 @@ footer{
 
 }
 
-.center {
-    margin: auto;
+.center_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 50%;
     padding: 10px;
 }
