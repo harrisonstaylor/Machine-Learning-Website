@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="en" xmlns:onmouseover="http://www.w3.org/1999/xhtml">
 <head>
     <title> SignSight </title>
 </head>
@@ -26,16 +26,16 @@
     <div class="center_img">
     <div class="container">
         <div class="image">
-            <img src="img/arabic_sign.jpg" />
+            <img src="img/arabic_sign.jpg" onmouseover:="hover(this, 0);" onmouseout="unhover(this, 0);"/>
         </div>
         <div class="image">
-            <img src="img/euro_sign.jpg" style = 'max-width: 96.1%; max-height: 96.1%'/>
+            <img src="img/euro_sign.jpg" onmouseover:="hover(this, 1);" onmouseout="unhover(this, 1);" style = 'max-width: 96.1%; max-height: 96.1%'/>
         </div>
         <div class="image">
-            <img src="img/korean_sign.jpeg" />
+            <img src="img/korean_sign.jpeg" onmouseover:="hover(this, 2);" onmouseout="unhover(this, 2);"/>
         </div>
         <div class="image">
-            <img src="img/stop_sign.jpg" style = 'overflow: hidden; max-height: 87%'/>
+            <img src="img/stop_sign.jpg" style = 'overflow: hidden; max-height: 87%' onmouseover:="hover(this, 3);" onmouseout="unhover(this, 3);"/>
         </div>
     </div>
     </div>
