@@ -14,6 +14,7 @@ function hover(element, id) {
             break
         case 3:
             element.setAttribute('src', 'modeled_images/stop_sign.jpg');
+            break
 
     }
 }
@@ -31,6 +32,7 @@ function unhover(element, id) {
             break
         case 3:
             element.setAttribute('src', 'img/stop_sign.jpg');
+            break
 
     }
 }
