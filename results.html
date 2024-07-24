@@ -2,20 +2,31 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
-
-<link rel="stylesheet" type="text/css" href="style.css"/>
-
-
+<body>
 <!-- Side navigation -->
 <div class="sidenav">
-  <img src="img/cropped.png" style = 'display: block; max-height: 75%; max-width: 75%; margin-left: auto; margin-right: auto' alt="WPI logo"/>
+  <img src="img/cropped.png" style='display: block; max-height: 75%; max-width: 75%; margin-left: auto; margin-right: auto' alt="WPI logo"/>
   <a href="index.html">Home</a>
   <a href="dataset.html">Dataset</a>
   <a href="yolo.html">Model</a>
   <a href="results.html">Results</a>
 </div>
 
-
-
+<div class="main">
+  <div class="center_image">
+    <img src="img/Classification_ex_1.png" alt="YOLO Classification Example">
+  </div>
+  
+  <div class="content">
+    <p style='text-align:center'>YOLO model results</p>
+    <p style='text-align:center'>
+      The classifier performed well over 20 epochs, reaching an accuracy rate of about 25%. The CNN uses a sigmoid 
+      activation function in the output layer to output the probabilities for the likelihood of the image belonging to each class, allowing for multi-label
+      predictions.
+    </p>
+  </div>
+</div>
+</body>
 </html>
