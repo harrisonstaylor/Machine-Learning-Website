@@ -28,6 +28,16 @@
       This is an extensive set of various street signs from across the world, containing data on the type of sign
       and location. We used roughly 48,000 images in our training sets.</p>
     </div>
+    <div style ='display:block;margin-left: auto;margin-right:auto' >
+      <img src="img/zwgoU-8trbbrAX3luS78dw.jpg" style = 'max-height: 30%; max-width: 30%; margin-left: 20%' alt="dataset image"/>
+      <img src = "img/zxuABvAdvtcx6MFHk2Jpqg.jpg" style = 'max-height: 30%; max-width: 30%;'  alt="dataset image"/>
+    </div>
+
+    <div class = "content">
+      <p style = 'text-align:center'>The default Mapillary annotations are formatted in json files which is unusable for Yolo. In order to convert them we wrote a <a href="python/json_to_yolo8_converter.py">script</a> that converts from json to yolo8 format based on a provided file directory. The files change from looking like the left image to the right image.</p>
+    </div>
+      <img src="img/annotation_default.png" style = 'max-height: 20%; max-width: 20%; margin-left: 30%' alt="dataset image"/>
+      <img src = "img/yolo_annotation.png" style = 'max-height: 30%; max-width: 30%;margin-bottom: 4%' alt="dataset image"/>
   </div>
 </body>
 </html>
