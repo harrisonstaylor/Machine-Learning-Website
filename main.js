@@ -10,10 +10,11 @@ function hover(element, id) {
             element.setAttribute('src', 'modeled_images/euro_sign.jpg');
             break
         case 2:
-            element.setAttribute('src', 'modeled_images/korean_sign.jpg');
+            element.setAttribute('src', 'modeled_images/korean_sign.jpeg');
             break
         case 3:
             element.setAttribute('src', 'modeled_images/stop_sign.jpg');
+            console.log("STOP")
             break
 
     }
@@ -28,7 +29,7 @@ function unhover(element, id) {
             element.setAttribute('src', 'img/euro_sign.jpg');
             break
         case 2:
-            element.setAttribute('src', 'img/korean_sign.jpg');
+            element.setAttribute('src', 'img/korean_sign.jpeg');
             break
         case 3:
             element.setAttribute('src', 'img/stop_sign.jpg');
